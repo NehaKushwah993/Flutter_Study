@@ -30,9 +30,7 @@ class _MyAppState extends State<MyApp> {
                   Expanded(
                       child: FlatButton(
                           onPressed: () {
-                            setState(() {
-                              dice_number_1 = Random().nextInt(5) + 1;
-                            });
+                            changeImageOnDice();
                           },
                           padding: EdgeInsets.all(20),
                           child: Image.asset(
@@ -40,9 +38,7 @@ class _MyAppState extends State<MyApp> {
                   Expanded(
                       child: FlatButton(
                           onPressed: () {
-                            setState(() {
-                              dice_number_2 = Random().nextInt(5) + 1;
-                            });
+                            changeImageOnDice();
                           },
                           padding: EdgeInsets.all(20),
                           child: Image.asset(
@@ -54,6 +50,13 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
     );
+  }
+
+  void changeImageOnDice() {
+    setState(() {
+      dice_number_1 = Random().nextInt(5) + 1;
+      dice_number_2 = Random().nextInt(5) + 1;
+    });
   }
 }
 
