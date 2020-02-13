@@ -10,3 +10,10 @@
 - How to change image at runtime onClick
 
 ![How to change image at runtime onClick](https://github.com/NehaKushwah993/Flutter_Study/blob/master/dice.png)
+
+
+# flutter_magic_ball :
+
+- How to change image at runtime onClick
+
+![How to change image at runtime onClick](https://github.com/NehaKushwah993/Flutter_Study/blob/master/magic_ball.png)
