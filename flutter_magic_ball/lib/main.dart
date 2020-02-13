@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void tellMeAnswer() {
     setState(() {
-      number = Random().nextInt(4) + 1;
+      number = Random().nextInt(5) + 1;
     });
   }
 
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Ask me Anthing!"),
+        title: Text(widget.title),
       ),
       body: Center(
         child: FlatButton(
@@ -45,8 +45,6 @@ class _MyHomePageState extends State<MyHomePage> {
           },
           child: Image.asset(
             "images/ball$number.png",
-            width: double.infinity,
-            height: double.infinity,
           ),
         ),
       ),
