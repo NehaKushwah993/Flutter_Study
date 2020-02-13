@@ -17,3 +17,10 @@
 - How to change image at runtime onClick
 
 ![How to change image at runtime onClick](https://github.com/NehaKushwah993/Flutter_Study/blob/master/magic_ball.png)
+
+
+# flutter_piano :
+
+- How to add audio assets and play them on click
+
+![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/piano.jpeg)
