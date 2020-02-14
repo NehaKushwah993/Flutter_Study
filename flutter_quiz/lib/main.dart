@@ -26,11 +26,14 @@ class _MyAppState extends State<MyApp> {
         children: <Widget>[
           Expanded(
             flex: 9,
-            child: Center(
-              child: Text(
-                quizQuestions.getQuestion(),
-                textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.white, fontSize: 22),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+                child: Text(
+                  quizQuestions.getQuestion(),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.white, fontSize: 22),
+                ),
               ),
             ),
           ),
@@ -74,8 +77,11 @@ class _MyAppState extends State<MyApp> {
           ),
           Expanded(
             flex: 1,
-            child: Row(
-              children: answers,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: answers,
+              ),
             ),
           )
         ],
