@@ -24,3 +24,10 @@
 - How to add audio assets and play them on click
 
 ![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/piano.jpeg)
+
+
+# flutter_quiz :
+
+- How to add/remove/update views at runtime
+
+![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/quiz.jpeg)
