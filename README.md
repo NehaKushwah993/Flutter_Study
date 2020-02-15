@@ -30,7 +30,7 @@
 
 - How to add/remove/update views at runtime
 
-![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/quiz.jpeg)
+![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/quiz.gif)
 
 
 # flutter_destiny :
