@@ -31,3 +31,10 @@
 - How to add/remove/update views at runtime
 
 ![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/quiz.jpeg)
+
+
+# flutter_destiny :
+
+- Next question will depend on choice.
+
+![](https://github.com/NehaKushwah993/Flutter_Study/blob/master/destiny.gif)
